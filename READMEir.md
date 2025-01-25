@@ -58,18 +58,18 @@ _فهرستی از دستورات گیت که معمولاً استفاده می
 | `git stash clear` | حذف کردن تمام چرک نویس های ذخیره شده  |
 | `git stash pop` | اضافه کردن آخرین چرک نویس را به ورکینگ دایرکتوری  |
 
-### Sharing & Updating Projects
+### اشتراک‌گذاری و به‌روزرسانی پروژه‌ها
 
-| Command | Description |
+| دستور | توضیحات |
 | ------- | ----------- |
-| `git push origin [branch name]` | Push a branch to your remote repository |
-| `git push -u origin [branch name]` | Push changes to remote repository (and remember the branch) |
-| `git push` | Push changes to remote repository (remembered branch) |
-| `git push origin --delete [branch name]` | Delete a remote branch |
-| `git pull` | Update local repository to the newest commit |
-| `git pull origin [branch name]` | Pull changes from remote repository |
-| `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | Add a remote repository |
-| `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | Set a repository's origin branch to SSH |
+| `git push origin [branch name]` | پوش کردن یه برنچ یا شاخه به مخزن ریموت شما |
+| `git push -u origin [branch name]` | ارسال تغییرات به مخزن ریموت (و شاخه یا برنچ را به خاطر بسپار) |
+| `git push` | ارسال تغییرات به مخزن ریموت (شاخه‌ای که به خاطر سپرده شده) |
+| `git push origin --delete [branch name]` | حذف یک برنچ یا شاخه ی ریموت |
+| `git pull` | به‌روزرسانی مخزن محلی به جدیدترین commit |
+| `git pull origin [branch name]` | آوردن یا کشیدن تغییرات از مخزن یا ریپوزیتوری ریموت |
+| `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | اضافه کردن یک مخزن یا ریپوزیتوری ریموت |
+| `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | تنظیم کردن یا قرار دادن برنچ یا شاخه ی origin یک ریپوزیتوری یا مخزن به SSH |
 
 ### Inspection & Comparison
 
