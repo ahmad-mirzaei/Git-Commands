@@ -26,16 +26,16 @@ _فهرستی از دستورات گیت که معمولاً استفاده می
 | `git init` | ایجاد یک ریپوزیتوری یا مخزن در لوکال |
 | `git clone ssh://git@github.com/[username]/[repository-name].git` | کپی کردن یک ریموت ریپوزیتوری در لوکال |
 
-### Basic Snapshotting
+### مبانی
 
-| Command | Description |
+| دستور | توضیحات |
 | ------- | ----------- |
-| `git status` | Check status |
-| `git add [file-name.txt]` | Add a file to the staging area |
-| `git add -A` | Add all new and changed files to the staging area |
-| `git commit -m "[commit message]"` | Commit changes |
-| `git rm -r [file-name.txt]` | Remove a file (or folder) |
-| `git remote -v` | View the remote repository of the currently working file or directory |
+| `git status` | بررسی کردن وضعیت |
+| `git add [file-name.txt]` | اضافه کردن یک فایل به استیجینگ |
+| `git add -A` | اضاغه کردن همه ی فایل های جدیدِ تغییر یافته به استیجینگ |
+| `git commit -m "[commit message]"` | ثبت تغییرات با پیام مناسب |
+| `git rm -r [file-name.txt]` | حذف کردن یک فایل یا فولدر |
+| `git remote -v` | دیدن ریموت ریپوزیتوری از فایل یا دایرکتوری فعلیِ در حال کار |
 
 ### Branching & Merging
 
