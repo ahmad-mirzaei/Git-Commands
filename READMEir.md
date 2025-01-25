@@ -69,7 +69,7 @@ _فهرستی از دستورات گیت که معمولاً استفاده می
 | `git pull` | به‌روزرسانی مخزن محلی به جدیدترین commit |
 | `git pull origin [branch name]` | آوردن یا کشیدن تغییرات از مخزن یا ریپوزیتوری ریموت |
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | اضافه کردن یک مخزن یا ریپوزیتوری ریموت |
-| `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | تنظیم شاخه origin یک مخزن به SSH |
+| `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | origin تنظیم شاخه ی یک مخزن SSH به  |
 
 ### Inspection & Comparison
 
