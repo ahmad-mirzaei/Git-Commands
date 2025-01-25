@@ -37,26 +37,26 @@ _فهرستی از دستورات گیت که معمولاً استفاده می
 | `git rm -r [file-name.txt]` | حذف کردن یک فایل یا فولدر |
 | `git remote -v` | دیدن ریموت ریپوزیتوری از فایل یا دایرکتوری فعلیِ در حال کار |
 
-### Branching & Merging
+### شاخه ها یا برنچ ها و ادغام کردن آنها
 
-| Command | Description |
+| دستور | توضیحات |
 | ------- | ----------- |
-| `git branch` | List branches (the asterisk denotes the current branch) |
-| `git branch -a` | List all branches (local and remote) |
-| `git branch [branch name]` | Create a new branch |
-| `git branch -d [branch name]` | Delete a branch |
-| `git push origin --delete [branch name]` | Delete a remote branch |
-| `git checkout -b [branch name]` | Create a new branch and switch to it |
-| `git checkout -b [branch name] origin/[branch name]` | Clone a remote branch and switch to it |
-| `git branch -m [old branch name] [new branch name]` | Rename a local branch |
-| `git checkout [branch name]` | Switch to a branch |
-| `git checkout -` | Switch to the branch last checked out |
-| `git checkout -- [file-name.txt]` | Discard changes to a file |
-| `git merge [branch name]` | Merge a branch into the active branch |
-| `git merge [source branch] [target branch]` | Merge a branch into a target branch |
-| `git stash` | Stash changes in a dirty working directory |
-| `git stash clear` | Remove all stashed entries |
-| `git stash pop` | Apply latest stash to working directory |
+| `git branch` | لیست شاخه ها یا برنچ ها را نمایش می دهد (ستاره نشان دهنده ی شاخه ی فعلی است) |
+| `git branch -a` | لیست تمام برنچ ها یا شاخه ها (اعم از داخلی و ریموت) |
+| `git branch [branch name]` | ساخت یک برنچ یا شاخه ی جدید |
+| `git branch -d [branch name]` | حذف یک شاخه |
+| `git push origin --delete [branch name]` | حذف یک ریموت برنچ یا شاخه ی ریموت |
+| `git checkout -b [branch name]` | ساخت یک برنچ جدید و سوئیچ کردن به آن در لحظه |
+| `git checkout -b [branch name] origin/[branch name]` | نسخه برداری از یک ریموت برنچ و سوئیچ کردن به آن در لحظه |
+| `git branch -m [old branch name] [new branch name]` | تغییر نام یک برنچ یا شاخه ی محلی یا لوکال |
+| `git checkout [branch name]` | سوئیچ کردن به یک برنچ یا شاخه |
+| `git checkout -` | رفتن به شاخه یا برنچی که آخرین بار بررسی شد یا در آن بودیم |
+| `git checkout -- [file-name.txt]` | حذف تغییرات درون یک فایل |
+| `git merge [branch name]` | ادغام کردن یا مرج کردن یک شاخه یا برنچ در شاخه یا برنچ فعال |
+| `git merge [source branch] [target branch]` | ادغام یا مرج کردن شاخه یا برنچ فرعی در شاخه برنچ هدف |
+| `git stash` | ذخیره تغییرات در یک چرک نویس |
+| `git stash clear` | حذف کردن تمام چرک نویس های ذخیره شده  |
+| `git stash pop` | اضافه کردن آخرین چرک نویس را به ورکینگ دایرکتوری  |
 
 ### Sharing & Updating Projects
 
