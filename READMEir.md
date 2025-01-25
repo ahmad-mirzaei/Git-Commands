@@ -15,7 +15,7 @@ ___
 
 _فهرستی از دستورات گیت که معمولاً استفاده می کنم_
 
-*اگر به نام مستعار گیت من علاقه دارید، به `.bash_profile` من که در اینجا یافت می شود نگاه کنید: https://github.com/joshnh/bash_profile/blob/master/.bash_profile*
+*اگر به نام مستعار گیت من علاقه دارید، به `bash_profile.` من که در اینجا یافت می شود نگاه کنید: https://github.com/joshnh/bash_profile/blob/master/.bash_profile*
 
 --
 
