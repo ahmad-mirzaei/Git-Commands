@@ -19,12 +19,12 @@ _فهرستی از دستورات گیت که معمولاً استفاده می
 
 --
 
-### Getting & Creating Projects
+### دریافت و ایجاد پروژه ها
 
-| Command | Description |
+| توضیحات | دستور |
 | ------- | ----------- |
-| `git init` | Initialize a local Git repository |
-| `git clone ssh://git@github.com/[username]/[repository-name].git` | Create a local copy of a remote repository |
+| `git init` | ایجاد یک ریپوزیتوری یا مخزن در لوکال |
+| `git clone ssh://git@github.com/[username]/[repository-name].git` | کپی کردن یک ریموت ریپوزیتوری در لوکال |
 
 ### Basic Snapshotting
 
