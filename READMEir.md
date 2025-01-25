@@ -71,11 +71,11 @@ _فهرستی از دستورات گیت که معمولاً استفاده می
 | `git remote add origin ssh://git@github.com/[username]/[repository-name].git` | اضافه کردن یک مخزن یا ریپوزیتوری ریموت |
 | `git remote set-url origin ssh://git@github.com/[username]/[repository-name].git` | تنظیم یا قرار دادن شاخه ی اوریجین یک مخزن یا ریپوزیتوری به SHH |
 
-### Inspection & Comparison
+### بازبینی و مقایسه
 
-| Command | Description |
+| دستور | توضیحات |
 | ------- | ----------- |
-| `git log` | View changes |
-| `git log --summary` | View changes (detailed) |
-| `git log --oneline` | View changes (briefly) |
-| `git diff [source branch] [target branch]` | Preview changes before merging |
+| `git log` | مشاهده ی تغییرات |
+| `git log --summary` | مشاهده تغییرات (به طور جزئی) |
+| `git log --oneline` | مشاهده تغییرات (به طور مختصر) |
+| `git diff [source branch] [target branch]` | پیش‌ نمایش تغییرات قبل از ادغام یا مرج کردن |
