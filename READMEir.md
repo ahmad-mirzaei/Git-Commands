@@ -8,9 +8,8 @@
 - [Azərbaycanca versiya](READMEaz.md)
 - [বাংলা সংস্করণ](READMEbn.md)
 - [हिन्दी अनुवाद](READMEhi.md)
-- [فارسی](READMEir.md)
 - [العربية](READMEar.md)
-
+- [فارسی](READMEir.md)
 ___
 
 _فهرستی از دستورات گیت که معمولاً استفاده می کنم_
